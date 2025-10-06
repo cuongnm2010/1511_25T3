@@ -9,7 +9,27 @@
 #include <stdio.h>
 
 int main(void) {
-    // TODO: Write your solution here
+    // declare integer 'x' and prompt the user for value of ‘x’
+
+    // print "Start of loop!"
+    // while x < 10:
+    //     print x
+    //     increment x
+
+    // print "End of loop!"
+
+    printf("Enter a number: ");
+    int x;
+    scanf("%d", &x);
+
+    printf("Start of loop!\n");
+    while (x < 10) {
+        printf("%d\n", x);
+        x = x + 1;
+    }
+
+    printf("End of loop!\n");
+
 
     return 0;
 }

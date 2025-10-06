@@ -11,7 +11,27 @@
 #define MAX_COL 5
 
 int main(void) {
+    // print "Start of outer loop!"
+    // declare and initialise integer 'row' and 'col' to 0
+    // while row < MAX:
+    //     print "Start of inner loop!"
+    //     while col < MAX:
+    //             print col
+    //             increment 'col'
+    //     print "End of inner loop!"
+    //     increment 'row'
+    // print "End of outer loop!
     
-
+    int row = 0;
+    int col = 0;
+    while (row < MAX_ROW) {
+        col = 0;
+        while (col < MAX_COL) {
+            printf("%d ", col);
+            col++;
+        }
+        printf("\n");
+        row++;
+    }
     return 0;
 }
